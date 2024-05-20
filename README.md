@@ -29,8 +29,8 @@ This project implements an MPC controller for the ground locomotion of a Multi-L
 
 MorphoGear is a hexacopter with four morphogenetic limbs having 3-DoF for each limb. It needs to have a smooth motion while walking so that it does not fall while performing any task. Therefore, there needs to be a controller that ensures path following with minimum deviations. A Model Predictive Controller is designed for the canter gait locomotion[^1] of the MorphoGear.
 
-### Subsection (if any)
-Subsections may be added to further break down the problem, provide background information, or elaborate on specific aspects that are crucial to understanding the project's scope.
+<!-- ### Subsection (if any)
+Subsections may be added to further break down the problem, provide background information, or elaborate on specific aspects that are crucial to understanding the project's scope. -->
 
 ---
 
@@ -39,8 +39,8 @@ Subsections may be added to further break down the problem, provide background i
 <!-- Detailed explanation of the findings, performance metrics, and outcomes of the project. This section may include graphs, tables, and other visual aids to support the results. -->
 The experimental results showcased a smooth motion of the morphogear during canter gait locomotion with an RMSE of 0.91 cm and a maximal error of 1.85 cm.
 
-### Subsection (if any)
-Subsections may be used to organize results into categories, discuss different algorithms or methods used, or compare various scenarios within the project.
+<!-- ### Subsection (if any)
+Subsections may be used to organize results into categories, discuss different algorithms or methods used, or compare various scenarios within the project. -->
 
 ---
 
