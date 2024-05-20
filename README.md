@@ -22,6 +22,8 @@ This section provides a brief introduction to the project conducted as part of t
 
 ## Problem Statement
 This section delves into the specifics of the challenge tackled during the project. It provides context, outlines the objectives, and discusses the significance of the problem.
+This project implements an MPC controller for the ground locomotion of a Multi-Limb Morphogenetic UAV 'Morphogear'. The robot is shown belo.
+![MG](https://github.com/YasheerahYaqoot/acm_project/blob/main/MG.jpg)
 
 ### Subsection (if any)
 Subsections may be added to further break down the problem, provide background information, or elaborate on specific aspects that are crucial to understanding the project's scope.
