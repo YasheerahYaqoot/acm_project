@@ -21,9 +21,13 @@ This section provides a brief introduction to the project conducted as part of t
 ---
 
 ## Problem Statement
-This section delves into the specifics of the challenge tackled during the project. It provides context, outlines the objectives, and discusses the significance of the problem.
-This project implements an MPC controller for the ground locomotion of a Multi-Limb Morphogenetic UAV 'Morphogear'. The robot is shown belo.
+<!-- This section delves into the specifics of the challenge tackled during the project. It provides context, outlines the objectives, and discusses the significance of the problem. -->
+
+This project implements an MPC controller for the ground locomotion of a Multi-Limb Morphogenetic UAV 'MorphoGear'.The concept is based on recent research[^1].
+
 ![MG](https://github.com/YasheerahYaqoot/acm_project/blob/main/MG.jpg)
+
+MorphoGear is a hexacopter with four morphogenetic limbs having 3-DoF for each limb. It needs to have a smooth motion while walking so that it does not fall while performing any task. Therefore, there needs to be a controller that ensures path following with minimum deviations. A Model Predictive Controller is designed for the canter gait locomotion[^1] of the MorphoGear.
 
 ### Subsection (if any)
 Subsections may be added to further break down the problem, provide background information, or elaborate on specific aspects that are crucial to understanding the project's scope.
@@ -31,7 +35,9 @@ Subsections may be added to further break down the problem, provide background i
 ---
 
 ## Results
-Detailed explanation of the findings, performance metrics, and outcomes of the project. This section may include graphs, tables, and other visual aids to support the results.
+<!-- This is a comment -->
+<!-- Detailed explanation of the findings, performance metrics, and outcomes of the project. This section may include graphs, tables, and other visual aids to support the results. -->
+The experimental results showcased a smooth motion of the morphogear during canter gait locomotion with an RMSE of 0.91 cm and a maximal error of 1.85 cm.
 
 ### Subsection (if any)
 Subsections may be used to organize results into categories, discuss different algorithms or methods used, or compare various scenarios within the project.
@@ -69,8 +75,8 @@ This is a placeholder for any additional sections that the team wishes to includ
 ---
 
 ## Bibliography
-(If applicable) This section includes references to papers, articles, and other resources that informed the project's approach and methodology.
+This section includes references to papers, articles, and other resources that informed the project's approach and methodology.
 
-- Reference 1
+[^1]: M. Martynov, Z. Darush, A. Fedoseev, and D. Tsetserukou, “MorphoGear: An UAV with Multi-Limb Morphogenetic Gear for Rough-Terrain Locomotion,” in 2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Seattle, WA, USA: IEEE, Jun. 2023, pp. 11–16. doi: 10.1109/AIM46323.2023.10196115.
 - Reference 2
 - Reference 3
