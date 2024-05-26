@@ -53,7 +53,7 @@ The following simulation shows a straight trajectory of 100 cm which the morphog
 The following simulation shows an arbitrary trajectory which the morphogear followed. Here the varying steplengths needed according to the specific path can be seen.  
 ![Arbitrary Trajectory](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/72acc1fb-397f-47f9-8eb2-e71c54063f1a)
 
-The following simulation shows how the legs of MorphoGear carryout a step generated from the MPC  
+The following simulation shows how the legs of MorphoGear carry out a step generated from the MPC  
 ![Limbs Simulation](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/cfd34b74-b26c-403f-9f66-7c85859b7bbe)
 
 
