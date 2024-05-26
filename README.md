@@ -58,7 +58,7 @@ The following simulation shows how the legs of MorphoGear carry out a step gener
 
 
 ## Unity Visualization
-In the Unity simulation shpwn below, it can be seen that the quadcopter flies to a specific point, Morphogear then traverses to that target point through canter gait ground locomotion, and then the quadrotor lands on MorphoGear's landing pad.  
+In the Unity simulation shown below, it can be seen that the quadcopter flies to a specific point, Morphogear then traverses to that target point through canter gait ground locomotion, and then the quadrotor lands on MorphoGear's landing pad.  
 ![ACMProject-ezgif com-resize (1)](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/249e84a4-3856-424f-8c10-e02e8c4cdd96)
 
 
