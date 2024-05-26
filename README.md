@@ -7,6 +7,11 @@ This section provides a brief introduction to the project conducted as part of t
 - Team Members: [Muhammad Ahsan Mustafa], [Yasheerah Yaqoot], [Maria Makarova]
 - Final Presentation: [Link to Presentation]
 
+Objectives:
+This project has two key aspects:
+- Sliding Mode Control for a quadcopter
+- Model Predictive Control for the ground locomotion of a Multi-Limb Morphogenetic UAV 'MorphoGear'
+
 ---
 
 ## Table of Contents
@@ -23,7 +28,7 @@ This section provides a brief introduction to the project conducted as part of t
 ## Problem Statement
 <!-- This section delves into the specifics of the challenge tackled during the project. It provides context, outlines the objectives, and discusses the significance of the problem. -->
 
-This project implements an MPC controller for the ground locomotion of a Multi-Limb Morphogenetic UAV 'MorphoGear'.The concept is based on recent research[^1].
+The idea behind this project is the collaboration between two hetrogeneous vehicular robots, a UGV (Morphogear) and a UAV (quadcopter). 
 
 ![MG](https://github.com/YasheerahYaqoot/acm_project/blob/main/MG.jpg)
 
