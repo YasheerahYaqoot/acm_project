@@ -90,5 +90,5 @@ Subsections may be used to organize results into categories, discuss different a
   ---
 
 ## Bibliography
-[^1]: M. Martynov, Z. Darush, A. Fedoseev, and D. Tsetserukou, “MorphoGear: An UAV with Multi-Limb Morphogenetic Gear for Rough-Terrain Locomotion,” in 2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Seattle, WA, USA: IEEE, Jun. 2023, pp. 11–16. doi: 10.1109/AIM46323.2023.10196115.
-[^2]: Bouadi, Hakim & Bouchoucha, M. & Tadjine, M.. (2007). Sliding Mode Control based on Backstepping Approach for an UAV Type-Quadrotor. International Journal of Applied Mathematics and Computer Sciences. 4. 12-17. 
+1) M. Martynov, Z. Darush, A. Fedoseev, and D. Tsetserukou, “MorphoGear: An UAV with Multi-Limb Morphogenetic Gear for Rough-Terrain Locomotion,” in 2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Seattle, WA, USA: IEEE, Jun. 2023, pp. 11–16. doi: 10.1109/AIM46323.2023.10196115.
+2) Bouadi, Hakim & Bouchoucha, M. & Tadjine, M.. (2007). Sliding Mode Control based on Backstepping Approach for an UAV Type-Quadrotor. International Journal of Applied Mathematics and Computer Sciences. 4. 12-17. 
