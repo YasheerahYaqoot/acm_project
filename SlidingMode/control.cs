@@ -41,26 +41,8 @@ public class control : MonoBehaviour
         await Task.Run(() => ListenEvents(source.Token));
     }
 
-    // Update is called once per frame
-
     void FixedUpdate()
     {
-        //AddControls();
-
-        //AddMotorForce();
-
-
-        //AddExternalForces();
-
-        /*         propellerForceFR = Mathf.Clamp(propellerForceFR, 0f, maxPropellerForce);
-                propellerForceFL = Mathf.Clamp(propellerForceFL, 0f, maxPropellerForce);
-                propellerForceBR = Mathf.Clamp(propellerForceBR, 0f, maxPropellerForce);
-                propellerForceBL = Mathf.Clamp(propellerForceBL, 0f, maxPropellerForce); */
-
-        //AddForceToPropeller(propellerFR, propellerForceFR);
-        //AddForceToPropeller(propellerFL, propellerForceBR);
-        //AddForceToPropeller(propellerBR, propellerForceFL);
-        //AddForceToPropeller(propellerBL, propellerForceBL);
         transform.position = new Vector3(Z, X, Y);
         transform.rotation = Quaternion.Euler(Pitch, Yaw, Roll);
 
@@ -156,14 +138,6 @@ public class control : MonoBehaviour
         Yaw = float.Parse(colors[4]) / 100.0f;
         Roll = float.Parse(colors[5]) / 100.0f;
 
-
-        /*         matColor = new Color()
-                {
-                    r = float.Parse(colors[0]) / 255.0f,
-                    g = float.Parse(colors[1]) / 255.0f,
-                    b = float.Parse(colors[2]) / 255.0f,
-                    a = float.Parse(colors[3]) / 255.0f
-                }; */
 
     }
 
