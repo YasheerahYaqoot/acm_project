@@ -35,7 +35,7 @@ The idea behind this project is the collaboration between two hetrogeneous vehic
 
 ![MorphoGear](https://github.com/YasheerahYaqoot/acm_project/blob/main/MorphoGear.jpg)
 
-MorphoGear is a hexacopter with four morphogenetic limbs having 3-DoF for each limb as shown in the image above. For this project it was limited to the role of a UGV.
+MorphoGear is a hexacopter with four morphogenetic limbs having 3-DoF for each limb as shown in the image above [^1]. For this project it was limited to the role of a UGV.
 
 <!-- ### Subsection (if any)
 Subsections may be added to further break down the problem, provide background information, or elaborate on specific aspects that are crucial to understanding the project's scope. -->
