@@ -72,7 +72,7 @@ Subsections may be used to organize results into categories, discuss different a
 - The file `Morphogear_MPC.py` is the main run file
 - `Simulation_2D.py` is used to visualize 2D xy-plane movement.
 - `Walking_Simulation_2D.py` is used to visualize 2D xz-plane legs simulation.
-- The two visualization files are already imported in the main run file and need not to be run.
+- The two visualization files are already imported in the main run file and need not to be run. (Although all 3 files are to be saved in the same directory)
 - At the end of the main run file, you have to chose which visualization you want to see.
 
   ---
