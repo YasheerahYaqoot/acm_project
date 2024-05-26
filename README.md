@@ -36,7 +36,7 @@ The idea behind this project is the collaboration between two hetrogeneous vehic
 ![MorphoGear](https://github.com/YasheerahYaqoot/acm_project/blob/main/MorphoGear.jpg)
 
 MorphoGear is a hexacopter with four morphogenetic limbs having 3-DoF for each limb as shown in the image above [^1]. For this project it was limited to the role of a UGV.
-
+The Quadcopter algorithms were built with the help of [^2] paper.
 <!-- ### Subsection (if any)
 Subsections may be added to further break down the problem, provide background information, or elaborate on specific aspects that are crucial to understanding the project's scope. -->
 
@@ -90,5 +90,5 @@ Subsections may be used to organize results into categories, discuss different a
   ---
 
 ## Bibliography
-1) M. Martynov, Z. Darush, A. Fedoseev, and D. Tsetserukou, “MorphoGear: An UAV with Multi-Limb Morphogenetic Gear for Rough-Terrain Locomotion,” in 2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Seattle, WA, USA: IEEE, Jun. 2023, pp. 11–16. doi: 10.1109/AIM46323.2023.10196115.
-2) Bouadi, Hakim & Bouchoucha, M. & Tadjine, M.. (2007). Sliding Mode Control based on Backstepping Approach for an UAV Type-Quadrotor. International Journal of Applied Mathematics and Computer Sciences. 4. 12-17. 
+[^1]: M. Martynov, Z. Darush, A. Fedoseev, and D. Tsetserukou, “MorphoGear: An UAV with Multi-Limb Morphogenetic Gear for Rough-Terrain Locomotion,” in 2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Seattle, WA, USA: IEEE, Jun. 2023, pp. 11–16. doi: 10.1109/AIM46323.2023.10196115.
+[^2]: Bouadi, Hakim & Bouchoucha, M. & Tadjine, M.. (2007). Sliding Mode Control based on Backstepping Approach for an UAV Type-Quadrotor. International Journal of Applied Mathematics and Computer Sciences. 4. 12-17. 
