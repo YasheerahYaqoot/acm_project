@@ -61,7 +61,7 @@ The following simulation shows how the legs of MorphoGear carry out a step gener
 In the Unity simulation shown below, it can be seen that the quadcopter flies to a specific point, Morphogear then traverses to that target point through canter gait ground locomotion, and then the quadrotor lands on MorphoGear's landing pad.  
 ![ACMProject-ezgif com-resize (1)](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/249e84a4-3856-424f-8c10-e02e8c4cdd96)
 
-
+---
 <!-- ### Subsection (if any)
 Subsections may be used to organize results into categories, discuss different algorithms or methods used, or compare various scenarios within the project. -->
 
@@ -73,18 +73,9 @@ Subsections may be used to organize results into categories, discuss different a
 - `Simulation_2D.py` is used to visualize 2D xy-plane movement.
 - `Walking_Simulation_2D.py` is used to visualize 2D xz-plane legs simulation.
 - The two visualization files are already imported in the main run file and need not to be run.
-- At the end of the main run file, you have to chose which visualization you want to see. 
+- At the end of the main run file, you have to chose which visualization you want to see.
 
-### Documentation
-If available, provide links to the project documentation or instructions on how to generate it.
-
----
-
-## Other Section
-This is a placeholder for any additional sections that the team wishes to include. It could be methodology, discussions, acknowledgments, or any other relevant content that doesn't fit into the predefined sections.
-
----
+  ---
 
 ## Bibliography
-This section includes references to papers, articles, and other resources that informed the project's approach and methodology.
 [^1]: M. Martynov, Z. Darush, A. Fedoseev, and D. Tsetserukou, “MorphoGear: An UAV with Multi-Limb Morphogenetic Gear for Rough-Terrain Locomotion,” in 2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Seattle, WA, USA: IEEE, Jun. 2023, pp. 11–16. doi: 10.1109/AIM46323.2023.10196115.
