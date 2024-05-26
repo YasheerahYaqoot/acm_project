@@ -43,8 +43,8 @@ Subsections may be added to further break down the problem, provide background i
 ---
 
 ## Results
-### Quadcopter Python Results
-### MorphoGear Python Results
+### Sliding Mode Python Results
+### MPC Python Results
 <!-- This is a comment -->
 <!-- Detailed explanation of the findings, performance metrics, and outcomes of the project. This section may include graphs, tables, and other visual aids to support the results. -->
 The following simulation shows a straight trajectory of 100 cm which the morphogear achieves in 4 complete steps of maximum steplength computed by the MPC.  
