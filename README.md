@@ -55,6 +55,7 @@ The following simulation shows how the legs of MorphoGear carryout a step genera
 ![Limbs Simulation](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/22bdf27b-b5ed-4053-b160-989adb24d8be)
 
 ## Unity Visualization
+![ACM Project GIF](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/2e572947-fb39-4f82-bcf1-69cf196d3071)
 
 
 <!-- ### Subsection (if any)
