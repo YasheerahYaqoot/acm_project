@@ -33,7 +33,7 @@ The applied controllers were coded in python and the results were verified throu
 
 The idea behind this project is the collaboration between two hetrogeneous vehicular robots, a UGV (Morphogear) and a UAV (quadcopter). The UGV has a landing pad attached on top of it where the UAV can land. Both the UGV and the UAV are autonomously controlled, hence they need robust cobntrollers to perform well. As stated in the objectives, a sliding mode controller was applied for the quadcopter's flight which supersedes the traditional PID control of it and an MPC was applied on MorphoGear's canter gait ground locomotion for to obtain optimised limb step lengths according to the provided path and not let it fall over. This was done so both the UAV and the UGV could accurately track given paths that were to be followed. The accuracy in this setup is crucial to the landing of the quadcopter on MorphoGear's landing pad.
 
-![MorphoGear](https://github.com/YasheerahYaqoot/acm_project/blob/main/MG.jpg)
+![MorphoGear](https://github.com/YasheerahYaqoot/acm_project/blob/main/MorphoGear.jpg)
 
 MorphoGear is a hexacopter with four morphogenetic limbs having 3-DoF for each limb as shown in the image above. For this project it was limited to the role of a UGV.
 
