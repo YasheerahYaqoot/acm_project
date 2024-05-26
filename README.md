@@ -8,8 +8,7 @@ This section provides a brief introduction to the project conducted as part of t
 - Final Presentation: [Link to Presentation]
 
 Objectives:
-This project has two key aspects:
-- Sliding Mode Control for a quadcopter
+- Sliding Mode Control for a Quadcopter
 - Model Predictive Control for the ground locomotion of a Multi-Limb Morphogenetic UAV 'MorphoGear'
 
 ---
