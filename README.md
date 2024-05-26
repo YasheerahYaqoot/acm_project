@@ -74,23 +74,6 @@ Subsections may be used to organize results into categories, discuss different a
 - `Walking_Simulation_2D.py` is used to visualize 2D xz-plane legs simulation.
 - The two visualization files are already imported in the main run file and need not to be run.
 - At the end of the main run file, you have to chose which visualization you want to see. 
- 
-### Requirements
-List of prerequisites, dependencies, and environment setup necessary to run the project.
-
-### Setup and Installation
-Instructions for setting up the project environment, which may include:
-- Installing dependencies: `pip install -r requirements.txt`
-- Setting up a virtual environment
-- Running a `setup.py` or `pyproject.toml` if necessary
-- Building and running a Docker container using `Dockerfile`
-
-### Running the Code
-Exact commands to execute the project, such as:
-
-```bash
-python main.py
-```
 
 ### Documentation
 If available, provide links to the project documentation or instructions on how to generate it.
