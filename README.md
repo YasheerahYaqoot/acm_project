@@ -47,13 +47,13 @@ Subsections may be added to further break down the problem, provide background i
 ### MorphoGear Python Results
 <!-- This is a comment -->
 <!-- Detailed explanation of the findings, performance metrics, and outcomes of the project. This section may include graphs, tables, and other visual aids to support the results. -->
-The following simulation shows a straight trajectory of 100 cm which the morphogear achieves in 4 complete steps of maximum steplength computed by the MPC  
+The following simulation shows a straight trajectory of 100 cm which the morphogear achieves in 4 complete steps of maximum steplength computed by the MPC.__  
 ![Straight Trajectory](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/36b11148-613f-4362-b9a5-c5e012a49fe6)
 
-The following simulation shows an arbitrary trajectory which the morphogear followed. Here the varying steplengths needed according to the specific path can be seen.
+The following simulation shows an arbitrary trajectory which the morphogear followed. Here the varying steplengths needed according to the specific path can be seen.__
 ![Arbitrary Trajectory](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/72acc1fb-397f-47f9-8eb2-e71c54063f1a)
 
-The following simulation shows how the legs of MorphoGear carryout a step generated from the MPC
+The following simulation shows how the legs of MorphoGear carryout a step generated from the MPC__
 ![Limbs Simulation](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/cfd34b74-b26c-403f-9f66-7c85859b7bbe)
 
 
