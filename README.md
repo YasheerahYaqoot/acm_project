@@ -79,7 +79,7 @@ Subsections may be used to organize results into categories, discuss different a
 - `Walking_Simulation_2D.py` is used to visualize 2D xz-plane legs simulation.
 - The two visualization files are already imported in the main run file and need not to be run. (Although all 3 files are to be saved in the same directory)
 - At the end of the main run file, you have to chose which visualization you want to see.
-- `mpc_vicon_data.txt`, `non_mpc_vicon_data.txt`, `planned_path_data.txt` contain the data points obtained through Unity Simulation. This data is used to plot the error graph using `plotting_simulation.py`.
+- `mpc_vicon_data.txt`, `non_mpc_vicon_data.txt`, `planned_path_data.txt` contain the data points obtained through Unity Simulation for a straight line trajectory. This data is used to plot the error graph using `plotting_simulation.py`.
 
   ---
 
