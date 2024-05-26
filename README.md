@@ -76,7 +76,7 @@ Subsections may be used to organize results into categories, discuss different a
 - Open the `SlidingMode/Main.ipynb` file.
 - Run the code until the Unity part. There are two trajectories - for flying and landing. If you need to estimate your own trajectory - inherit the class `SlidingModeControl` and change three functions: `True_traj, Solve_derivatives and Loss`. All other parameters are easy to change too. See the example of `SlidingModeControl_Grounding` class.
 - Paste the file `control.cs` on the prefab of the drone in Unity.
-- Press Play and wait until there is a message with the IP address. Check it with the IP in `SlidingMode/Main.ipynb` file in Unity part.
+- Press Play and wait until there is a message with the IP address. Compare it with the IP in `SlidingMode/Main.ipynb` file in Unity part.
 - When the Unity environment is ready - start sending the trajectory of the quadcopter.
 ### Running MPC
 - Install dependencies: `pip install casadi`
