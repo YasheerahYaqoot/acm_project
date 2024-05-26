@@ -66,8 +66,15 @@ In the Unity simulation shown below, it can be seen that the quadcopter flies to
 Subsections may be used to organize results into categories, discuss different algorithms or methods used, or compare various scenarios within the project. -->
 
 ## Run the Project
-Step-by-step instructions on how to replicate the results obtained in this project. This should be clear enough for someone with basic knowledge of the tools used to follow.
-
+### Running Sliding Mode Control
+### Running MPC
+- Install dependencies: `pip install casadi`
+- The file `Morphogear_MPC.py` is the main run file
+- `Simulation_2D.py` is used to visualize 2D xy-plane movement.
+- `Walking_Simulation_2D.py` is used to visualize 2D xz-plane legs simulation.
+- The two visualization files are already imported in the main run file and need not to be run.
+- At the end of the main run file, you have to chose which visualization you want to see. 
+ 
 ### Requirements
 List of prerequisites, dependencies, and environment setup necessary to run the project.
 
