@@ -56,7 +56,8 @@ The experimental results showcased a smooth motion of the morphogear during cant
 <!-- ### Subsection (if any)
 Subsections may be used to organize results into categories, discuss different algorithms or methods used, or compare various scenarios within the project. -->
 
----
+---![Untitled video - Made with Clipchamp (1)](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/171f3f68-d1d6-405f-9573-b4569ba3277c)
+
 
 ## Run the Project
 Step-by-step instructions on how to replicate the results obtained in this project. This should be clear enough for someone with basic knowledge of the tools used to follow.
