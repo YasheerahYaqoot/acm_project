@@ -60,7 +60,7 @@ The error values for the plot above can be seen below.
 ![error_values](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/8d485c47-4994-4b1c-be0f-f9c9c347173a)
 ### Sliding Mode Results
 The results of the trajectory approximation, as well as error graphs and resulting control laws are presented in `SlidingMode/Main.ipynb` file. 
-The error for the flight path is 2.08. For landing, it is 21.94.
+The optimization error for the flight path is 2.08. For landing, it is 21.94.
 
 
 ## Unity Visualization
