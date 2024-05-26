@@ -45,10 +45,13 @@ Subsections may be added to further break down the problem, provide background i
 ## Results
 <!-- This is a comment -->
 <!-- Detailed explanation of the findings, performance metrics, and outcomes of the project. This section may include graphs, tables, and other visual aids to support the results. -->
-
-![Arbitrary Trajectory 1](https://github.com/YasheerahYaqoot/acm_project/blob/main/MorphoGearMPC/Arbitrary Trajectory 1.gif)
-
 The experimental results showcased a smooth motion of the morphogear during canter gait locomotion with an RMSE of 0.91 cm and a maximal error of 1.85 cm.
+
+![Straight Trajectory](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/94780a55-eebf-49e1-a7d1-987bb2b92dbc)
+![Arbitrary Trajectory 2](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/3139cc54-6581-4aaf-aab9-173a66908226)
+![Arbitrary Trajectory 1](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/cc386bf3-5beb-4345-b2a1-a81a0fee1c96)
+![Limbs Simulation](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/22bdf27b-b5ed-4053-b160-989adb24d8be)
+
 
 <!-- ### Subsection (if any)
 Subsections may be used to organize results into categories, discuss different algorithms or methods used, or compare various scenarios within the project. -->
