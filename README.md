@@ -24,7 +24,7 @@ Objectives:
 - Sliding Mode Control for a Quadcopter
 - Model Predictive Control for the ground locomotion of a Multi-Limb Morphogenetic UAV 'MorphoGear'
 
-The applied controllers were coded in python and the results were verified through graphic simulations shown in the results section. After that, the controllers were tested in a Unity Environment to visualize the motion of the robotic vehicles. 
+The applied controllers were coded in python and the results were verified through graphic simulations shown in the results section. After that, the controllers were tested in a Unity Environment using ROS (Robot Operating Software) to visualize the motion of the robotic vehicles. 
 
 ---
 
@@ -43,21 +43,22 @@ Subsections may be added to further break down the problem, provide background i
 ---
 
 ## Results
+### Quadcopter Python Results
+### MorphoGear Python Results
 <!-- This is a comment -->
 <!-- Detailed explanation of the findings, performance metrics, and outcomes of the project. This section may include graphs, tables, and other visual aids to support the results. -->
-The experimental results showcased a smooth motion of the morphogear during canter gait locomotion with an RMSE of 0.91 cm and a maximal error of 1.85 cm.
-
+The following simulation shows a straight trajectory of 100 cm which the morphogear achieves in 4 complete steps of maximum steplength computed by the MPC  
 ![Straight Trajectory](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/94780a55-eebf-49e1-a7d1-987bb2b92dbc)
+The following simulation shows an arbitrary trajectory which the morphogear followed. Here the varying steplengths needed according to the specific path can be seen.
 ![Arbitrary Trajectory 2](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/3139cc54-6581-4aaf-aab9-173a66908226)
-![Arbitrary Trajectory 1](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/cc386bf3-5beb-4345-b2a1-a81a0fee1c96)
+The following simulation shows how the legs of MorphoGear carryout a step generated from the MPC
 ![Limbs Simulation](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/22bdf27b-b5ed-4053-b160-989adb24d8be)
+
+## Unity Visualization
 
 
 <!-- ### Subsection (if any)
 Subsections may be used to organize results into categories, discuss different algorithms or methods used, or compare various scenarios within the project. -->
-
----![Untitled video - Made with Clipchamp (1)](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/171f3f68-d1d6-405f-9573-b4569ba3277c)
-
 
 ## Run the Project
 Step-by-step instructions on how to replicate the results obtained in this project. This should be clear enough for someone with basic knowledge of the tools used to follow.
