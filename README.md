@@ -46,7 +46,7 @@ Subsections may be added to further break down the problem, provide background i
 <!-- This is a comment -->
 <!-- Detailed explanation of the findings, performance metrics, and outcomes of the project. This section may include graphs, tables, and other visual aids to support the results. -->
 
-MorphoGearMPC/Arbitrary Trajectory 1.gif
+![Arbitrary Trajectory 1](https://github.com/YasheerahYaqoot/acm_project/blob/main/MorphoGearMPC/Arbitrary Trajectory 1.gif)
 
 The experimental results showcased a smooth motion of the morphogear during canter gait locomotion with an RMSE of 0.91 cm and a maximal error of 1.85 cm.
 
