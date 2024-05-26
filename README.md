@@ -51,8 +51,14 @@ Subsections may be added to further break down the problem, provide background i
 The following simulation shows an arbitrary trajectory which the morphogear followed. Here the varying steplengths needed according to the specific path can be seen.  
 ![Arbitrary Trajectory](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/72acc1fb-397f-47f9-8eb2-e71c54063f1a)
 
-The following simulation shows how the legs of MorphoGear carry out a step generated from the MPC  
+The following simulation shows how the legs of MorphoGear carry out a step generated from the MPC. 
 ![Limbs Simulation](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/cfd34b74-b26c-403f-9f66-7c85859b7bbe)
+
+The following is an error plot of MorphoGear walking in a straight line with and without MPC obtained from Unity Environment. It can be seen that a closed-loop MPC is vital because in its absence, once MorphoGear deviates from the original path it does not tend to come back.  
+![Error_plot](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/937174e5-9ada-4d1f-bbfc-f5da0adf3172) 
+
+The error values for the plot above can be seen below.  
+![error_values](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/8d485c47-4994-4b1c-be0f-f9c9c347173a)
 
 
 
@@ -73,6 +79,7 @@ Subsections may be used to organize results into categories, discuss different a
 - `Walking_Simulation_2D.py` is used to visualize 2D xz-plane legs simulation.
 - The two visualization files are already imported in the main run file and need not to be run. (Although all 3 files are to be saved in the same directory)
 - At the end of the main run file, you have to chose which visualization you want to see.
+- `mpc_vicon_data.txt`, `non_mpc_vicon_data.txt`, `planned_path_data.txt` contain the data points obtained through Unity Simulation. This data is used to plot the error graph using `plotting_simulation.py`.
 
   ---
 
