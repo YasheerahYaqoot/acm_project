@@ -31,7 +31,7 @@ The applied controllers were coded in python and the results were verified throu
 ## Problem Statement
 <!-- This section delves into the specifics of the challenge tackled during the project. It provides context, outlines the objectives, and discusses the significance of the problem. -->
 
-The idea behind this project is the collaboration between two hetrogeneous vehicular robots, a UGV (Morphogear) and a UAV (quadcopter). The UGV has a landing pad attached on top of it where the UAV can land. Both the UGV and the UAV are autonomously controlled, hence they need robust cobntrollers to perform well. As stated in the objectives, a sliding mode controller was applied for the quadcopter's flight which supersedes the traditional PID control of it and an MPC was applied on MorphoGear's canter gait ground locomotion to obtain optimised limb step lengths according to the provided path and not let it fall over. This was done so both the UAV and the UGV could accurately track given paths that were to be followed. The accuracy in this setup is crucial to the landing of the quadcopter on MorphoGear's landing pad.
+The idea behind this project is the collaboration between two hetrogeneous vehicular robots, a UGV (Morphogear) and a UAV (quadcopter). The UGV has a landing pad attached on top of it where the UAV can land. Both the UGV and the UAV are autonomously controlled, hence they need robust controllers to perform well. As stated in the objectives, a sliding mode controller was applied for the quadcopter's flight which supersedes the traditional PID control of it and an MPC was applied on MorphoGear's canter gait ground locomotion to obtain optimised limb step lengths according to the provided path and not let it fall over. This was done so both the UAV and the UGV could accurately track given paths that were to be followed. The accuracy in this setup is crucial to the landing of the quadcopter on MorphoGear's landing pad.
 
 ![MorphoGear](https://github.com/YasheerahYaqoot/acm_project/blob/main/MorphoGear.jpg)
 
@@ -43,7 +43,6 @@ Subsections may be added to further break down the problem, provide background i
 ---
 
 ## Results
-### Sliding Mode Results
 ### MPC Results
 <!-- This is a comment -->
 <!-- Detailed explanation of the findings, performance metrics, and outcomes of the project. This section may include graphs, tables, and other visual aids to support the results. -->
@@ -59,7 +58,8 @@ The following is an error plot of MorphoGear walking in a straight line with and
 
 The error values for the plot above can be seen below.  
 ![error_values](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/8d485c47-4994-4b1c-be0f-f9c9c347173a)
-
+### Sliding Mode Results
+The results of the trajectory approximation, as well as error graphs and resulting control laws are presented in `SlidingMode/Main.ipynb` file.
 
 
 ## Unity Visualization
@@ -72,6 +72,11 @@ Subsections may be used to organize results into categories, discuss different a
 
 ## Run the Project
 ### Running Sliding Mode Control
+- Open the `SlidingMode/Main.ipynb` file.
+- Run the code until the Unity part. There are two trajectories - for flying and landing. If you need to estimate your own trajectory - inherit the class `SlidingModeControl` and change three functions: `True_traj, Solve_derivatives and Loss`. All other parameters are easy to change too. See the example of `SlidingModeControl_Grounding` class.
+- Paste the file `control.cs` on the prefab of the drone in Unity.
+- Press Play and wait until there is a message with the IP address. Check it with the IP in `SlidingMode/Main.ipynb` file in Unity part.
+- When the Unity environment is ready - start sending the trajectory of the quadcopter.
 ### Running MPC
 - Install dependencies: `pip install casadi`
 - The file `Morphogear_MPC.py` is the main run file
@@ -85,3 +90,4 @@ Subsections may be used to organize results into categories, discuss different a
 
 ## Bibliography
 [^1]: M. Martynov, Z. Darush, A. Fedoseev, and D. Tsetserukou, “MorphoGear: An UAV with Multi-Limb Morphogenetic Gear for Rough-Terrain Locomotion,” in 2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Seattle, WA, USA: IEEE, Jun. 2023, pp. 11–16. doi: 10.1109/AIM46323.2023.10196115.
+[^2] Bouadi, Hakim & Bouchoucha, M. & Tadjine, M.. (2007). Sliding Mode Control based on Backstepping Approach for an UAV Type-Quadrotor. International Journal of Applied Mathematics and Computer Sciences. 4. 12-17. 
