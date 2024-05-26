@@ -59,6 +59,7 @@ The following simulation shows how the legs of MorphoGear carryout a step genera
 
 ## Unity Visualization
 ![ACM Project GIF](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/2e572947-fb39-4f82-bcf1-69cf196d3071)
+![ACMProject-ezgif com-optimize](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/f78f648d-5e25-4f11-91c3-4080c4138af2)
 
 
 <!-- ### Subsection (if any)
