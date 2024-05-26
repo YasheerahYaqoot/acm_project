@@ -1,5 +1,18 @@
 # Control of Multi-Agent Environment
 
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Problem Statement](#problem-statement)
+- [Results](#results)
+- [Run the Project](#run-the-project)
+- [Other Section](#other-section)
+- [Bibliography](#bibliography)
+
+---
+
 ## Overview
 This section provides a brief introduction to the project conducted as part of the Advanced Control Methods course at Skoltech in 2024. It includes the fundamental objectives of the project, information about the team members, and a link to the final presentation.
 
@@ -12,17 +25,6 @@ Objectives:
 - Model Predictive Control for the ground locomotion of a Multi-Limb Morphogenetic UAV 'MorphoGear'
 
 The applied controllers were coded in python and the results were verified through graphic simulations shown in the results section. After that, the controllers were tested in a Unity Environment to visualize the motion of the robotic vehicles. 
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Problem Statement](#problem-statement)
-- [Results](#results)
-- [Run the Project](#run-the-project)
-- [Other Section](#other-section)
-- [Bibliography](#bibliography)
 
 ---
 
