@@ -103,6 +103,10 @@ Subsections may be used to organize results into categories, discuss different a
 - At the end of the main run file, you have to chose which visualization you want to see.
 - `MPC_Results/mpc_vicon_data.txt`, `MPC_Results/non_mpc_vicon_data.txt`, `MPC_Results/planned_path_data.txt` contain the data points obtained through Unity Simulation for a straight line trajectory. This data is used to plot the error graph using `MPC_Results/plotting_simulation.py`.
 
+```
+python Morphogear_MPC.py
+```
+
   ---
 
 ## Bibliography
