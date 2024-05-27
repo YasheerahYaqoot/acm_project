@@ -65,7 +65,8 @@ The optimization error for the flight path is 2.08. For landing, it is 21.94.
 
 ## Unity Visualization
 In the Unity simulation shown below, it can be seen that the quadcopter flies to a specific point, Morphogear then traverses to that target point through canter gait ground locomotion, and then the quadrotor lands on MorphoGear's landing pad.  
-![ACMProject-ezgif com-resize (1)](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/249e84a4-3856-424f-8c10-e02e8c4cdd96)
+![ACM Project GIF](https://github.com/YasheerahYaqoot/acm_project/assets/140263131/c3952a5e-bcbe-4927-9d73-9e6026e2fdb0)
+
 
 ---
 <!-- ### Subsection (if any)
