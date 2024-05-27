@@ -39,17 +39,18 @@ Final Presentation: https://docs.google.com/presentation/d/1EtcCFMBNPaQxWpfTwcxu
 ## Problem Statement
 <!-- This section delves into the specifics of the challenge tackled during the project. It provides context, outlines the objectives, and discusses the significance of the problem. -->
 
-The idea behind this project is the collaboration between two hetrogeneous vehicular robots, a UGV (Morphogear) and a UAV (quadcopter). The UGV has a landing pad attached on top of it where the UAV can land. Both the UGV and the UAV are autonomously controlled, hence they need robust controllers to perform well. As stated in the objectives, a sliding mode controller was applied for the quadcopter's flight which supersedes the traditional PID control of it and an MPC was applied on MorphoGear's canter gait ground locomotion to obtain optimised limb step lengths according to the provided path and not let it fall over. 
-
-### Importance
-Without a controller, once MorphoGear deviates from its actual path then it does not tend to come back. Moreover, without a controller it can also generate a fixed step trajectory. With the MPC, the step trajectory is optimised according to the given path and keeps MorphoGear from deviating from the trajectory.
-
-To control the quadcopter, a sliding mode controller with a backstepping approach was implemented as in [^2]. This was done so both the UAV and the UGV could accurately track given paths that were to be followed. The accuracy in this setup is crucial to the landing of the quadcopter on MorphoGear's landing pad. 
-
+The idea behind this project is the collaboration between two hetrogeneous vehicular robots, a UGV (Morphogear) and a UAV (quadcopter). The UGV has a landing pad attached on top of it where the UAV can land. Both the UGV and the UAV are autonomously controlled, hence they need robust controllers to perform well. As stated in the objectives, a sliding mode controller was applied for the quadcopter's flight which supersedes the traditional PID control of it and an MPC was applied on MorphoGear's canter gait ground locomotion to obtain optimised limb step lengths according to the provided path and not let it fall over.  
 ![MorphoGear](https://github.com/YasheerahYaqoot/acm_project/blob/main/MorphoGear.jpg)
 
 MorphoGear is a hexacopter with four morphogenetic limbs having 3-DoF for each limb as shown in the image above [^1]. For this project it was limited to the role of a UGV.
 The Quadcopter algorithms for Sliding Mode Control were built with the help of [^2] paper.
+
+### Importance
+Without a controller, once MorphoGear deviates from its actual path then it does not tend to come back. Moreover, without a controller it can also generate a fixed step trajectory. With the MPC, the step trajectory is optimised according to the given path and keeps MorphoGear from deviating from the trajectory.
+
+To control the quadcopter, a sliding mode controller with a backstepping approach was implemented as in [^1]. This was done so both the UAV and the UGV could accurately track given paths that were to be followed. The accuracy in this setup is crucial to the landing of the quadcopter on MorphoGear's landing pad. 
+
+
 <!-- ### Subsection (if any)
 Subsections may be added to further break down the problem, provide background information, or elaborate on specific aspects that are crucial to understanding the project's scope. -->
 
