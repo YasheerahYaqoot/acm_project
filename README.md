@@ -24,9 +24,14 @@ Project Framework:
 - The applied controllers were coded in python and the results were verified through graphic simulations shown in the results section.
 - The controllers were then tested in a Unity Environment using ROS (Robot Operating Software) to visualize the motion of the robotic vehicles. 
 
-- Course: Advanced Control Methods, Skoltech, 2024
-- Team Members: Muhammad Ahsan Mustafa, Yasheerah Yaqoot, Maria Makarova
-- Final Presentation: https://docs.google.com/presentation/d/1EtcCFMBNPaQxWpfTwcxuKm8Jpif2VDHfXrq9SbYpOp0/edit?usp=sharing
+Course: Advanced Control Methods, Skoltech, 2024
+
+Team Members: 
+- Muhammad Ahsan Mustafa
+- Yasheerah Yaqoot
+- Maria Makarova
+- 
+Final Presentation: https://docs.google.com/presentation/d/1EtcCFMBNPaQxWpfTwcxuKm8Jpif2VDHfXrq9SbYpOp0/edit?usp=sharing
 
 
 
