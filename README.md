@@ -30,7 +30,7 @@ Team Members:
 - Muhammad Ahsan Mustafa
 - Yasheerah Yaqoot
 - Maria Makarova
-- 
+
 Final Presentation: https://docs.google.com/presentation/d/1EtcCFMBNPaQxWpfTwcxuKm8Jpif2VDHfXrq9SbYpOp0/edit?usp=sharing
 
 
