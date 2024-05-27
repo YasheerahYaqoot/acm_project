@@ -1,4 +1,4 @@
-# Control of Multi-Agent Environment
+# Control of Multi-Agent System
 
 ---
 
