@@ -115,7 +115,7 @@ pip install -r requirements.txt
 
 - Run MorphoGear MPC
 ```
-cd acm_project/Morphogear_MPC
+cd acm_project/MorphoGear_MPC
 python Morphogear_MPC.py
 ```
 
