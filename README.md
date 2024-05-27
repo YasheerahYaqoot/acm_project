@@ -95,12 +95,11 @@ Subsections may be used to organize results into categories, discuss different a
 - Press Play and wait until there is a message with the IP address. Compare it with the IP in `SlidingMode/Main.ipynb` file in Unity part.
 - When the Unity environment is ready - start sending the trajectory of the quadcopter.
 ### Running MPC
-- Install dependencies: `pip install casadi`
 - The file `Morphogear_MPC/Morphogear_MPC.py` is the main run file
 - `Morphogear_MPC/Simulation_2D.py` is used to visualize 2D xy-plane movement.
 - `Morphogear_MPC/Walking_Simulation_2D.py` is used to visualize 2D xz-plane legs simulation.
-- The two visualization files are already imported in the main run file and need not to be run. (Although all 3 files are to be saved in the same directory)
-- At the end of the main run file, you have to chose which visualization you want to see.
+- The two visualization files are already imported in the main run file and need not to be run. 
+- At the end of the main run file, There are two visualisations available. The first is the 2D xy-plane simulation and the second is the 2D xz-plane simulation. First simulation is chosen by default. You can change it in `Morphogear_MPC/Morphogear_MPC.py` yourself for second simulation. 
 - `MPC_Results/mpc_vicon_data.txt`, `MPC_Results/non_mpc_vicon_data.txt`, `MPC_Results/planned_path_data.txt` contain the data points obtained through Unity Simulation for a straight line trajectory. This data is used to plot the error graph using `MPC_Results/plotting_simulation.py`.
 
 - Clone the repository
@@ -116,10 +115,21 @@ pip install -r requirements.txt
 
 - Run MorphoGear MPC
 ```
+cd acm_project/Morphogear_MPC
 python Morphogear_MPC.py
 ```
 
-  ---
+- Run Unity Test Error Plots for Validation
+```
+cd acm_project/MPC_Results
+python plotting_simulation.py
+```
+
+- Obtaining Sliding Mode Control Jupyter File and Unity File
+```
+cd acm_project/SlidingMode
+```
+---
 
 ## Bibliography
 [^1]: M. Martynov, Z. Darush, A. Fedoseev, and D. Tsetserukou, “MorphoGear: An UAV with Multi-Limb Morphogenetic Gear for Rough-Terrain Locomotion,” in 2023 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Seattle, WA, USA: IEEE, Jun. 2023, pp. 11–16. doi: 10.1109/AIM46323.2023.10196115.
