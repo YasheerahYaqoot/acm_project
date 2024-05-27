@@ -8,7 +8,6 @@
 - [Problem Statement](#problem-statement)
 - [Results](#results)
 - [Run the Project](#run-the-project)
-- [Other Section](#other-section)
 - [Bibliography](#bibliography)
 
 ---
@@ -43,7 +42,9 @@ Final Presentation: https://docs.google.com/presentation/d/1EtcCFMBNPaQxWpfTwcxu
 The idea behind this project is the collaboration between two hetrogeneous vehicular robots, a UGV (Morphogear) and a UAV (quadcopter). The UGV has a landing pad attached on top of it where the UAV can land. Both the UGV and the UAV are autonomously controlled, hence they need robust controllers to perform well. As stated in the objectives, a sliding mode controller was applied for the quadcopter's flight which supersedes the traditional PID control of it and an MPC was applied on MorphoGear's canter gait ground locomotion to obtain optimised limb step lengths according to the provided path and not let it fall over. 
 
 ### Importance
-Without a controller, once MorphoGear deviates from its actual path then it does not tend to come back. Moreover, without a controller it can also generate a fixed step trajectory. With the MPC, the step trajectory is optimised according to the given path and keeps MorphoGear from deviating from the trajectory. This was done so both the UAV and the UGV could accurately track given paths that were to be followed. The accuracy in this setup is crucial to the landing of the quadcopter on MorphoGear's landing pad. 
+Without a controller, once MorphoGear deviates from its actual path then it does not tend to come back. Moreover, without a controller it can also generate a fixed step trajectory. With the MPC, the step trajectory is optimised according to the given path and keeps MorphoGear from deviating from the trajectory.
+
+To control the quadcopter, a sliding mode controller with a backstepping approach was implemented as in [^2]. This was done so both the UAV and the UGV could accurately track given paths that were to be followed. The accuracy in this setup is crucial to the landing of the quadcopter on MorphoGear's landing pad. 
 
 ![MorphoGear](https://github.com/YasheerahYaqoot/acm_project/blob/main/MorphoGear.jpg)
 
