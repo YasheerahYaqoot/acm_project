@@ -7,6 +7,7 @@
 - [Overview](#overview)
 - [Problem Statement](#problem-statement)
 - [Results](#results)
+- [Unity Visualization](#unity-visualization)
 - [Run the Project](#run-the-project)
 - [Bibliography](#bibliography)
 
