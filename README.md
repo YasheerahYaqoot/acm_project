@@ -48,7 +48,7 @@ The Quadcopter algorithms for Sliding Mode Control were built with the help of [
 ### Importance
 Without a controller, once MorphoGear deviates from its actual path then it does not tend to come back. Moreover, without a controller it can also generate a fixed step trajectory. With the MPC, the step trajectory is optimised according to the given path and keeps MorphoGear from deviating from the trajectory.
 
-To control the quadcopter, a sliding mode controller with a backstepping approach was implemented as in [^1]. This was done so both the UAV and the UGV could accurately track given paths that were to be followed. The accuracy in this setup is crucial to the landing of the quadcopter on MorphoGear's landing pad. 
+To control the quadcopter, a sliding mode controller with a backstepping approach was implemented as in [^2]. This was done so both the UAV and the UGV could accurately track given paths that were to be followed. The accuracy in this setup is crucial to the landing of the quadcopter on MorphoGear's landing pad. 
 
 
 <!-- ### Subsection (if any)
